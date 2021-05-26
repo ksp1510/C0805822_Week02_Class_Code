@@ -3,8 +3,6 @@ import time
 # import is used to import time library of python
 
 current_time = time.asctime().split(" ")  # Here current time tuple is accessed using asctime()
-
-
 # and is splitted and stored as list items in current_time.
 
 # Following function returns which day is today from the current_time list
